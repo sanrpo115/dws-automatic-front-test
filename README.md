@@ -1,6 +1,6 @@
-# Proyecto de Automatización de Pruebas con Playwright (JavaScript)
+# Proyecto de Automatización de Pruebas con Playwright
 
-Este proyecto demuestra la automatización de un flujo de "Añadir Producto al Carrito" en la tienda de demostración [Demo Web Shop](http://demowebshop.tricentis.com/). El objetivo principal es garantizar que un usuario pueda registrarse y logearse en la aplicación.
+Este proyecto demuestra la automatización de un flujo de "Registro e inicio de sesión" en el e-commerce de demostración [Demo Web Shop](http://demowebshop.tricentis.com/). El objetivo principal es garantizar que un usuario pueda registrarse y logearse en la aplicación.
 
 ## 1. Estructura del Proyecto
 
@@ -75,7 +75,7 @@ npm run docs
 ## 4. Escenarios
 
 ### 📌 Escenarios Cubiertos:
-El archivo register.spec.js valida los siguientes casos del formulario de registro:
+El archivo register.spec.js y login.spec.js valida los siguientes casos:
 
 ✅ Registro exitoso con email aleatorio
 
