@@ -1,0 +1,23 @@
+{
+  "name": "demo-web-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test && npm run report",
+    "report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui",
+    "docs": "jsdoc ./src -r -d docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
